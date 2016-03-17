@@ -45,7 +45,7 @@ try {
 ES6 || document.write("<script src=js/mpw-js/traceur-runtime.js><\/script>");
 
 // Include the scrypt implementation
-document.write("<script src=lib/" + esdir + "pbkdf2.js><\/script>");
+document.write("<script src=js/mpw-js/" + esdir + "pbkdf2.js><\/script>");
 document.write("<script src=js/mpw-js/" + esdir + "scrypt.js?1><\/script>");
 
 // Include the MPW class
